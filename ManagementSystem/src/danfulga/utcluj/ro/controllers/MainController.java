@@ -1,9 +1,5 @@
 package danfulga.utcluj.ro.controllers;
-
-import danfulga.utcluj.ro.bll.CourseBLL;
-import danfulga.utcluj.ro.bll.StudentBLL;
-import danfulga.utcluj.ro.daos.*;
-import danfulga.utcluj.ro.models.*;
+import danfulga.utcluj.ro.dataLayer.daos.TeacherDAO;
 
 
 public class MainController {
@@ -59,14 +55,19 @@ public class MainController {
         //studentBLL.findById(129);
         //StudentBLL.findByUsername("andra");
 
-        //TeacherDAO.insert(new Teacher("fulga", "noooo", "348483", 3333, 4444, "fulga", "fulga"));
+        //TeacherBLL.insert(new Teacher("Andrei", "12 Manastur", "0745985657", 987456321, 9874, "andreiprof", "1a2s3d4f%A"));
+        //TeacherDAO.deleteById(47);
+        //TeacherDAO.deleteById(49);
 
+        //TeacherBLL.insert(new Teacher("Andrei", "12 Manastur", "0745896587", 147852697, 5897, 3621, "branga", "1a2s3d4f%B"));
+        //TeacherDAO.deleteById(47);
         //EnrollmentDAO.findByStudentID(128);
         //EnrollmentDAO.insert(new Enrollment(134,19));
         //TeacherDAO.deleteById(46);
         //Course course = new Course("Logic Programming",5,47);
         //CourseDAO.insert(course);
         //CourseBLL.insert(course);
+        //EnrollmentDAO.insert(new Enrollment(143,26));
 
 
 
